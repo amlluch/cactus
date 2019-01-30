@@ -1,0 +1,4 @@
+POSTGRES_USER=cactus
+POSTGRES_PASSWORD=cactus
+POSTGRES_DB=cactus_db
+REGISTRY_ENV=../config/cactus/application_env
