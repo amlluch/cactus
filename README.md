@@ -1,6 +1,6 @@
 <h1>Override User model and oauth2 authenticaciton</h1>
 
-You can run this app in a virtual environment or with docker. For running in a virtual environment proceed as usual: create a virtual environment, migrate database and register the app by doing at cactus directory <strong>python3 manage.py shell <  	AppRegister.py</strong>
+You can run this app in a virtual environment or with docker. For running in a virtual environment proceed as usual: create a virtual environment, migrate database and register the app by doing at cactus directory <strong>python3 manage.py AppRegister</strong>
   
   If you want change database user name or password, change in /config/db/database_env. It executes on port 8000. Change the docker-compose.yml file for executing in a different port.
   
