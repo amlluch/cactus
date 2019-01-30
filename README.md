@@ -14,7 +14,7 @@ Follow next steps:
 
 3) <strong>Migrate database:</strong> docker-compose run --rm cactus /bin/bash -c "cd cactus; ./manage.py migrate"
 
-4) <strong>Register the app:</strong> docker-compose run --rm cactus /bin/bash -c "cd cactus; ./manage.py shell < AppRegister.py"
+4) <strong>Register the app:</strong> docker-compose run --rm cactus /bin/bash -c "cd cactus; ./manage.py AppRegister"
 
 5) <strong>Create superuser:</strong> docker-compose run --rm cactus /bin/bash -c "cd cactus; ./manage.py createsuperuser"
 
