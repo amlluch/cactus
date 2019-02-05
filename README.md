@@ -28,8 +28,8 @@ Now you can run the app: docker-compose up
 <h3>oauth2</h3>
 /authentication/token/  ---> new token and login<br>
 /authentication/register/  ---> new user registration and get tokens (only admin)<br>
-/authentication/refresh/    ---> refresh token<br>
-/authentication/revoke/ ---> revoke token<br>
+/authentication/token/refresh/    ---> refresh token<br>
+/authentication/token/revoke/ ---> revoke token<br>
 
 <h3>Restapi User Administration</h3>
 /restapi/user/ --- > get current user (authenticated)<br>
